@@ -1,7 +1,7 @@
 let musicas = [
-  {titulo:'Guittar Solo', artista:'Blitz', src:'./music/01.mp3', img: './assets/rock.jpg'},
-  {titulo:'Samba raiz', artista:'Blitz', src:'./music/02.mp3', img: './assets/mpb.jpg'},
-  {titulo:'Música piano', artista:'Blitz', src:'./music/03.mp3', img: './assets/classic.jpg'},
+  { titulo: 'Guittar Solo', artista: 'Blitz', src: './music/01.mp3', img: './assets/rock.jpg' },
+  { titulo: 'Samba raiz', artista: 'Blitz', src: './music/02.mp3', img: './assets/mpb.jpg' },
+  { titulo: 'Música piano', artista: 'Blitz', src: './music/03.mp3', img: './assets/classic.jpg' },
 ]
 
 let indexMusica = 0
@@ -20,7 +20,7 @@ function renderizarMusica(index) {
     nomeArtista.textContent = musicas[index].artista
     imagem.src = musicas[index].img
     duracaoMusica.textContent = segundosParaMinutos(Math.floor(musica.duration))
-    tocarMusica()
+    pausarMusica()
   })
 }
 
@@ -57,17 +57,17 @@ function segundosParaMinutos(segundos) {
 document.querySelector('.botao-play').addEventListener('click', tocarMusica)
 document.querySelector('.botao-pause').addEventListener('click', pausarMusica)
 musica.addEventListener('timeupdate', atualizarBarra)
-document.querySelector('.anterior').addEventListener('click',() => {
+document.querySelector('.anterior').addEventListener('click', () => {
   indexMusica--
   if (indexMusica < 0) {
-      indexMusica = 2
+    indexMusica = 2
   }
   renderizarMusica(indexMusica)
 })
-document.querySelector('.proxima').addEventListener('click',() => {
+document.querySelector('.proxima').addEventListener('click', () => {
   indexMusica++
   if (indexMusica > 2) {
     indexMusica = 0
-}
+  }
   renderizarMusica(indexMusica)
 })
