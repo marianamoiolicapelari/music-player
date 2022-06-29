@@ -1,9 +1,10 @@
-# Player Music
+# Player de música
 
 ## 💻 Sobre o Projeto
-Este player de música foi desenvolvido com HTML, CSS e JavaScript. Os dados foram adicionados em um array. Com a função renderizarMusica imprimimos os dados,
-como nome da musica, cantor, capa do album. Já a função tocarMusica faz que que ao clicar no botão play execute a música que instataneamente muda para o botão
-pause para pausar a música. Contamos com a função atualizarBarra para fazer correr a barra que demonstra o tempo executamdo da mesma e a função segundosParaMinutos converte o tempo em minutos para ser exibido na tela.
+Player de música desenvolvido com HTML, CSS e JavaScript. Os dados foram adicionados em um array. Com a função renderizarMusica imprimo os dados, como nome da 
+musica, cantor, capa do álbum ao clicar em play. Já a função tocarMusica faz que que ao clicar no botão play execute a música junto com seus dados, que 
+instantaneamente muda para o botão pause para pausar a música. Sigo com a função atualizarBarra para fazer correr a barra que demonstra o tempo executando da 
+mesma e a função segundosParaMinutos converte o tempo em minutos para ser exibido na tela.
 
 ## 🎨 Layout
 
