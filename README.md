@@ -1,7 +1,9 @@
 # Player Music
 
 ## 💻 Sobre o Projeto
-Este player de música foi desenvolvido com HTML, CSS e JavaScript. Os dados foram adicionados em um array   
+Este player de música foi desenvolvido com HTML, CSS e JavaScript. Os dados foram adicionados em um array. Com a função renderizarMusica imprimimos os dados,
+como nome da musica, cantor, capa do album. Já a função tocarMusica faz que que ao clicar no botão play execute a música que instataneamente muda para o botão
+pause para pausar a música. Contamos com a função atualizarBarra para fazer correr a barra que demonstra o tempo executamdo da mesma e a função segundosParaMinutos converte o tempo em minutos para ser exibido na tela.
 
 ## 🎨 Layout
 
@@ -17,7 +19,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 💡 Como executar o projeto
 
-Esse projeto foi elaborado para web. </br>
+Esse projeto foi elaborado para web e mobile. </br>
 Para acessar basta clicar no link abaixo:
 
 https://musicplayer-mmc.netlify.app/
