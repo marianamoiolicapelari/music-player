@@ -5,7 +5,7 @@ Este player de música foi desenvolvido com HTML, CSS e JavaScript. Os dados for
 
 ## 🎨 Layout
 
-![image](https://github.com/marianamoiolicapelari/super-mario/blob/main/assets/Layoult%20Mario.png)
+![image](https://github.com/marianamoiolicapelari/music-player/blob/main/assets/Layoul%20Player.jpg)
 
 ## 🛠 Tecnologias
 
